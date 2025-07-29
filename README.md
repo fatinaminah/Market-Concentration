@@ -85,7 +85,6 @@ I computed market concentration using total assets as a proxy for company size. 
 
 First, I computed market shares for each company in each market by dividing each company’s total assets by the total assets from all 11 companies in each market, and multiplying by 100.
 
-Zoom image will be displayed
 
 ![](https://miro.medium.com/v2/resize:fit:700/1*3xtSpQrDzjS402UvfEKH7w.png)
 
