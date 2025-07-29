@@ -178,7 +178,7 @@ Referring to the above table results, the HHI values for both conventional and I
 
 Four-firm concentration ratio (CR4) captures the market shares of the top four firms in a specific industry. It is computed as follows:
 
-CR4 = (Total Assets of four leading firms)/(Total Assets for entire market)  ×100〖CR〗_4=(Total Assets of four leading firms)/(Total Assets for entire market)  ×100
+CR4 = (Total Assets of four leading firms)/(Total Assets for entire market)  ×100
 
 CR4 Interpretation:
 
