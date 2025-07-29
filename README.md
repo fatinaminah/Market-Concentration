@@ -4,7 +4,7 @@ This post explores two standard measures for market concentration and competitio
 
 I will explain briefly what the HHI and 4 firm concentration ratio mean, how they are measured, and how I applied these metrics for the life insurance industry in Malaysia using Python. Sample Python code for conventional life insurance is included in this post.
 
-In Malaysia there are two life insurance sectors. They are the conventional life insurance market and the Islamic (Takaful) life insurance market. The Islamic-based life insurance market has grown rapidly over the past 30 years spurred by the demand for Shariah compliant life insurance products by the Muslim-majority population.
+In Malaysia there are two life insurance sectors. They are conventional life insurance market and Islamic (Takaful) life insurance market. The Islamic-based life insurance market has grown rapidly over the past 30 years spurred by the demand for Shariah compliant life insurance products by the Muslim-majority population.
 
 > What is the market concentration of the Conventional and Takaful Life
 > Insurance Companies operating in Malaysia?
