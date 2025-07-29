@@ -95,11 +95,11 @@ Zoom image will be displayed
 
 The results show that Great Eastern Life Assurance (Malaysia) Berhad from 2011–2015 had the highest market share in the conventional life insurance sector. Meanwhile, AmMetLife Takaful Berhad had the largest market share in the Islamic life insurance market in the same time period from 2011–2015.
 
-    #Calculate market share (%)  
+    # Calculate market share (%)  
     df_market_share = df_assets.div(df_assets.loc["Total"]) * 100  
     df_market_share = df_market_share.drop("Total")  
       
-    #Stacked bar chart for market share  
+    # Stacked bar chart for market share  
     df_market_share_T = df_market_share.transpose()  
       
     fig = px.bar(df_market_share_T,  
@@ -139,11 +139,11 @@ Zoom image will be displayed
 
 Referring to the above table results, the HHI values for both conventional and Islamic life insurance markets in Malaysia are considered to have high levels of market concentration that fall within the “highly concentrated” category.
 
-    #Calculate market share squared and HHI  
+    # Calculate market share squared and HHI  
     df_market_share_squared = df_market_share ** 2  
     hhi = df_market_share_squared.sum().round(2)  
       
-    #Table of market share squared and HHI  
+    # Table of market share squared and HHI  
     table_values = df_market_share_squared.round(2)  
     table_values.loc["HHI"] = hhi  
       
@@ -198,7 +198,7 @@ Based on total assets, the top four firms in the conventional life insurance sec
 
 The CR4 values indicate that the top four firms in both conventional and Islamic life insurance hold over 81% of total market assets indicating a highly concentrated market. Given this concentration, there is likely monopoly power as to suggest the dominant firms would potentially have the power to limit the entry of new competitors into the market.
 
-    #Calculate 4-firm concentration ratio (CR4)  
+    # Calculate 4-firm concentration ratio (CR4)  
     top_4_firms = [  
         "American International Assurance Bhd",  
         "Great Eastern Life Assurance Malaysia Berhad",  
