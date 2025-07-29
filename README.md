@@ -130,7 +130,6 @@ _1,000 ≤ HHI ≤ 1,800: Moderately concentrated market_
 
 _HHI > 1,800: Highly concentrated market_
 
-Zoom image will be displayed
 
 ![](https://miro.medium.com/v2/resize:fit:700/1*1NEGprARe54wN47JR1N4Yw.png)
 
